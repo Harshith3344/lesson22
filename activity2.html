@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript for loops</h2>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            var fruits = ["Apples","Mango", "Grapes","Watermelon","Jack Fruit", "Banana"];
+            var text = "";
+            var text1 = "";
+            var i;
+            for (i = 0; i < fruits.length; i++) {text += fruits[i] + "<br>";}
+            document.getElementById("demo").innerHTML = text;
+
+            for (i = fruits.length-1; i >= 0; i--){
+                text1 += fruits[i] + "<br>";
+            }
+            document.getElementById("demo1").innerHTML = text1;
+        </script>
+    </body>
+</html>
